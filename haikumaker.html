@@ -1,0 +1,56 @@
+<!DOCYPE html>
+<html>
+ <head>
+   <meta charset="utf-8>
+ <link rel="stylesheet" type="text/css" href="haikustyle.css">
+   <title>haikumaker</title>
+   <link rel="stylesheet" type="text/css" href="haikustyle.css">
+ </head> 
+
+ <body>
+   <div class="main">
+ <p align="csenter">ばっしーの俳句メーカー
+      <script language="javascript">
+
+ msg="";
+ rand=Math.floor(Math.random()*5);
+ if(rand==0)who="　五月雨や   "
+ if(rand==1)who="　ばっしーが   "
+ if(rand==2)who="　鳴かぬなら   "
+ if(rand==3)who="　古傷も   "
+ if(rand==4)who="　石橋が   "
+ if(rand==5)who="　諒くんが   "
+ msg=who;
+ //document.write(who);
+
+ rand=Math.floor(Math.random()*5);
+ if(rand==0)where="余白ばかりの   "
+ if(rand==1)where="殺してしまえ   "
+ if(rand==2)where="舐めたくなりぬ   "
+ if(rand==3)where="あつめて早し   "
+ if(rand==4)where="鳴かせてみせよう   "
+ if(rand==5)where="鳴くまでまとう   "
+ msg=msg  +where;
+ //document.write(where);
+
+ rand=Math.floor(Math.random()*5);
+ if(rand==0)what="日記帳　"
+ if(rand==1)what="ホトトギス　"
+ if(rand==2)what="猫の声　"
+ if(rand==3)what="うそっちさん　"
+ if(rand==4)what="御朱印帳　"
+ msg=msg+what;
+ </script>
+ </p>
+
+ <table border="2" aligin="cecter"bgcolor="#ffffff">
+ <tr><td>
+ <script language="javascript">
+ document.write(msg);
+ </script>
+ </td></tr> 
+ </table>     
+
+ </body>
+
+</html>
