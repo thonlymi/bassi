@@ -7,7 +7,7 @@ list-style:none;
 }
 
 .header{
-background-color: #800080;
+background-color: #26d0c9;
 color:#fff;
 height:90px;
 }
@@ -38,6 +38,7 @@ font-size:100px;
 
 .copy-container h2{
 font-size:50px;
+margin-bottom:20px;
 }
 
 .copy-container span{
@@ -46,7 +47,7 @@ color:#ff4a4a;
 
 .contents{
 height:500px;
-marfin-top:100px
+margin-top:100px
 }
 .section-title{
 border-bottom:2px solid #dee7ec;
